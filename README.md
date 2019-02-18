@@ -1,4 +1,4 @@
-Calculator
+Calculator [![CircleCI](https://circleci.com/gh/bahmutov/calculator.svg?style=svg)](https://circleci.com/gh/bahmutov/calculator) [![renovate-app badge][renovate-badge]][renovate-app]
 ---
 
 Shows unit testing React components from [src/component](src/component) folder using [Cypress test runner](https://www.cypress.io/).
@@ -30,3 +30,6 @@ Usage
 ---
 
 `npm start`
+
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/

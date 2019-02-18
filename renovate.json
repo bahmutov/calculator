@@ -6,5 +6,6 @@
   "major": {
     "automerge": false
   },
-  "prConcurrentLimit": 10
+  "prConcurrentLimit": 10,
+  "masterIssue": true
 }

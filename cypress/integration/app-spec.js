@@ -1,8 +1,8 @@
+/// <reference types="cypress" />
 // import styles same way as `src/index.js` - they describe
 // the HTML page style
 import '../../src/index.css'
 
-import { mount } from 'cypress-react-unit-test'
 import App from '../../src/component/App'
 import React from 'react'
 
@@ -17,7 +17,7 @@ const result = () => cy.get('.component-display')
 
 describe('App', () => {
   beforeEach(() => {
-    mount(<App />)
+    cy.mount(<App />)
   })
 
   it('multiplies', () => {

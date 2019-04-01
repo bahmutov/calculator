@@ -1,4 +1,4 @@
-Calculator [![CircleCI](https://circleci.com/gh/bahmutov/calculator.svg?style=svg)](https://circleci.com/gh/bahmutov/calculator) [![renovate-app badge][renovate-badge]][renovate-app]
+Calculator [![CircleCI](https://circleci.com/gh/bahmutov/calculator.svg?style=svg)](https://circleci.com/gh/bahmutov/calculator) [![renovate-app badge][renovate-badge]][renovate-app] [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
 ---
 
 Shows unit testing React components from [src/component](src/component) folder using [Cypress test runner](https://www.cypress.io/).

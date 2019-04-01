@@ -1,4 +1,5 @@
 module.exports = {
+  node: { fs: 'empty' },
   module: {
     strictExportPresence: true,
     rules: [

@@ -27,6 +27,7 @@ describe('App', () => {
     cy.contains('.component-button', '2').click()
     cy.contains('button', '=').click()
     cy.contains('.component-display', '14')
+    cy.percySnapshot(cy.state('runnable').fullTitle(), {percyFromNodeModules: true})
   })
 
   it('computes modulo', () => {
@@ -38,5 +39,6 @@ describe('App', () => {
     press('0')
     op('=')
     result().contains('5')
+    cy.percySnapshot(cy.state('runnable').fullTitle(), {percyFromNodeModules: true})
   })
 })

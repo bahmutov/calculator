@@ -29,7 +29,12 @@ Install
 Usage
 ---
 
-`npm start`
+`npm start` and open local browser
+
+Tests
+---
+
+To run component tests execute `npm run cy:open` (no server is necessary) and click on an spec file.
 
 [renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
 [renovate-app]: https://renovateapp.com/

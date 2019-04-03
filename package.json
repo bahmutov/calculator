@@ -5,8 +5,8 @@
   "homepage": "http://ahfarmer.github.io/calculator",
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^1.1.2",
-    "@percy/agent": "file:percy-agent-0.1.17.tgz",
-    "@percy/cypress": "file:percy-cypress-1.0.4.tgz",
+    "@percy/agent": "0.2.1",
+    "@percy/cypress": "1.0.5",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "1.7.0",
     "css-loader": "^0.28.7",

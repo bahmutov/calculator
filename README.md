@@ -1,4 +1,4 @@
-Calculator [![CircleCI](https://circleci.com/gh/bahmutov/calculator.svg?style=svg)](https://circleci.com/gh/bahmutov/calculator) [![renovate-app badge][renovate-badge]][renovate-app] [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
+Calculator [![CircleCI](https://circleci.com/gh/bahmutov/calculator.svg?style=svg)](https://circleci.com/gh/bahmutov/calculator) [![renovate-app badge][renovate-badge]][renovate-app] [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/bahmutov/calculator)
 ---
 
 Shows unit testing React components from [src/component](src/component) folder using [Cypress test runner](https://www.cypress.io/).
@@ -29,7 +29,12 @@ Install
 Usage
 ---
 
-`npm start`
+`npm start` and open local browser
+
+Tests
+---
+
+To run component tests execute `npm run cy:open` (no server is necessary) and click on an spec file.
 
 [renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
 [renovate-app]: https://renovateapp.com/

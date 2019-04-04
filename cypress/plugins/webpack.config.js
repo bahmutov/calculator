@@ -1,6 +1,4 @@
 module.exports = {
-  // https://webpack.js.org/configuration/node/
-  // avoid winston logger problem
   node: {
     fs: 'empty'
   },

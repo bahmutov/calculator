@@ -5,8 +5,10 @@
   "homepage": "http://ahfarmer.github.io/calculator",
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^1.1.2",
-    "@percy/cypress": "https://github.com/bahmutov/percy-cypress/releases/download/fix-webpack/percy-cypress-1.0.5.tgz",
+    "@percy/agent": "0.2.1",
+    "@percy/cypress": "1.0.5",
     "babel-loader": "^7.1.2",
+    "babel-preset-env": "1.7.0",
     "css-loader": "^0.28.7",
     "cypress": "3.1.5",
     "cypress-react-unit-test": "2.3.2",
@@ -28,7 +30,8 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "percy": "percy exec -- cypress open"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"

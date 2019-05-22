@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://ahfarmer.github.io/calculator",
   "devDependencies": {
-    "@percy/cypress": "1.0.5",
+    "@percy/cypress": "1.0.9",
     "@babel/preset-env": "7.4.5",
     "@cypress/webpack-preprocessor": "4.0.3",
     "babel-loader": "7.1.5",

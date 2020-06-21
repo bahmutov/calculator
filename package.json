@@ -22,7 +22,7 @@
     "github-fork-ribbon-css": "0.2.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "winston": "3.2.1"
+    "winston": "3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

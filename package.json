@@ -7,7 +7,7 @@
     "@percy/cypress": "1.0.9",
     "@babel/preset-env": "7.24.4",
     "@cypress/webpack-preprocessor": "4.1.5",
-    "babel-loader": "7.1.5",
+    "babel-loader": "9.2.1",
     "babel-preset-env": "1.7.0",
     "css-loader": "0.28.11",
     "cypress": "3.8.3",
